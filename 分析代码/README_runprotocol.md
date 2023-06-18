@@ -1,6 +1,6 @@
 # HISAT-StringTie 流程简要操作方法
 
-为了在示例数据 (chrX_data.tar.gz，可到ftp://ftp.ccb.jhu.edu/pub/RNAseq_protocol中下载) 上运行 HISAT-StringTie 流程，建议使用至少8GB内存和多核心的Linux或OS X计算机，并按照以下建议的步骤进行操作。若需要查看更详细的流程步骤，参见论文^[1]^
+为了在示例数据 (chrX_data.tar.gz，可到 ftp://ftp.ccb.jhu.edu/pub/RNAseq_protocol 中下载) 上运行 HISAT-StringTie 流程，建议使用至少8GB内存和多核心的Linux或OS X计算机，并按照以下建议的步骤进行操作。若需要查看更详细的流程步骤，参见论文^[1]^
 
  1. 请下载并安装以下软件的最新版本：
      hisat2 (http://ccb.jhu.edu/software/hisat2) 和 
