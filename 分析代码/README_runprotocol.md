@@ -11,6 +11,8 @@
     在本项目中使用Dockerfile即可获得完成环境配置的centos7.2镜像，使用以下命令：
     
     ```shell
+    # 先切换到Dockerfile所在的目录
+    
     # 若直接构建出错则先运行这一命令
     # docker pull centos:7.2.1511
     
