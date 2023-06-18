@@ -18,3 +18,4 @@
 对整个项目的关键点和不足之处进行分析和讨论
 
 ## 参考文献
+[1] Pertea, M., Kim, D., Pertea, G. *et al.* Transcript-level expression analysis of RNA-seq experiments with HISAT, StringTie and Ballgown. *Nat Protoc* **11**, 1650–1667 (2016). https://doi.org/10.1038/nprot.2016.095
