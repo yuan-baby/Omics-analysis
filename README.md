@@ -72,7 +72,7 @@ SRAtools 是一组用于处理 NCBI 序列读取存档（SRA）数据格式的�
 
 ### 计算环境的建立
 
-请下载并安装以下软件的最新版本：hisat2 ( http://ccb.jhu.edu/software/hisat2 ) 和 stringtie ( http://ccb.jhu.edu/software/stringtie )。按照论文^[2]^中的说明，在 R 中安装 Ballgown 软件包及其它依赖项。同时，在系统上安装 samtools 程序（http://samtools.sourceforge.net/ ）。本脚本支持从0.1.19到1.3的全部版本。
+请下载并安装以下软件的最新版本：hisat2 ( http://ccb.jhu.edu/software/hisat2 ) 和 stringtie ( http://ccb.jhu.edu/software/stringtie )。按照论文^[2]^中的说明，在 R 中安装 Ballgown 软件包及其它依赖项。同时，在系统上安装 samtools 程序 ( http://samtools.sourceforge.net/ )。本脚本支持从0.1.19到1.3的全部版本。
 
 或者直接运行本项目中的Dockerfile构建完成环境配置的centos7.2镜像，使用以下命令：
 
