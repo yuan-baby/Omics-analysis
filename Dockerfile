@@ -52,7 +52,7 @@ RUN wget https://github.com/samtools/samtools/releases/download/1.17/samtools-1.
 
 # 安装ballgown包
 #RUN R -e 'options("repos" = c(CRAN="https://mirrors.tuna.tsinghua.edu.cn/CRAN/"));install.packages("BiocManager");options(BioC_mirror="https://mirrors.tuna.tsinghua.edu.cn/bioconductor/");BiocManager::install(c("textshaping", "ragg", "pkgdown"));install.packages("devtools");library(devtools);install_github("alyssafrazee/RSkittleBrewer");install.packages(c("dplyr", "genefilter"));BiocManager::install("ballgown")'
-RUN R -e 'install.packages("devtools",repos="http://cran.us.r-project.org");source("http://www.bioconductor.org/biocLite.R");biocLite(c("alyssafrazee/RSkittleBrewer","ballgown","genefilter","dplyr","devtools"))'
+RUN R -e 'install.packages("bioconductor",repos="https://mirrors.sjtug.sjtu.edu.cn/cran/");options(BioC_mirror="https://mirror.sjtu.edu.cn/bioconductor");BiocManager::install(c("alyssafrazee/RSkittleBrewer","ballgown","genefilter","dplyr","devtools"))'
 
 # 配置镜像启动后的默认命令
 CMD ["/bin/bash"]
