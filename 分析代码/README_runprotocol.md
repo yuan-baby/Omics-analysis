@@ -3,10 +3,9 @@
 为了在示例数据 (chrX_data.tar.gz，可到 ftp://ftp.ccb.jhu.edu/pub/RNAseq_protocol 中下载) 上运行 HISAT-StringTie 流程，建议使用至少8GB内存和多核心的Linux或OS X计算机，并按照以下建议的步骤进行操作。若需要查看更详细的流程步骤，参见论文^[1]^
 
  1. 请下载并安装以下软件的最新版本：
-     hisat2 (http://ccb.jhu.edu/software/hisat2) 和 
-     stringtie (http://ccb.jhu.edu/software/stringtie)。
+     hisat2 ( http://ccb.jhu.edu/software/hisat2 ) 和 stringtie ( http://ccb.jhu.edu/software/stringtie )。
     按照论文^[1]^中的说明，在 R 中安装 Ballgown 软件包及其它依赖项。
-    同时，在系统上安装 samtools 程序（http://samtools.sourceforge.net/）。本脚本支持从0.1.19到1.3的全部版本。
+    同时，在系统上安装 samtools 程序( http://samtools.sourceforge.net/ )。本脚本支持从0.1.19到1.3的全部版本。
     
     在本项目中使用Dockerfile即可获得完成环境配置的centos7.2镜像，使用以下命令：
     
@@ -20,7 +19,7 @@
     docker build -t rna-seq .
     ```
     
-    构建需要大约2h，请耐心等候。
+    构建需要较长时间，请耐心等候。
     
  2. 为这次流程运行创建或选择一个工作目录（输入和输出文件将存储在这个目录中）。
 
