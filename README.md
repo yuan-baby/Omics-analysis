@@ -176,15 +176,6 @@ GTPBP6 (GTP binding protein 6) 已知是一个在男性中高表达的基因。�
 
 对于使用SRA下载的数据，还需要操作论文^[2]^中的方法从软件官网下载或者自己建立HISAT索引。另外，本项目也没有直接给出使用SRA下载数据的代码。
 
-## 贡献
-
-| 成员   | 贡献                                        |
-| ------ | ------------------------------------------- |
-| 刘致远 | 编写Dockerfile，撰写项目报告                |
-| 邓卫青 | 编写流程脚本和R脚本，对数据执行流程获得结果 |
-
-
-
 ## 参考文献
 
 [1] Trapnell, C., Roberts, A., Goff, L. *et al.* Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks. *Nat Protoc* **7**, 562–578 (2012). https://doi.org/10.1038/nprot.2012.016
